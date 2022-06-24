@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>My first web application</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<style>
+</style>
+<script src=""></script>
+<body>
+<h1>My Final with Flask Project</h1>
+  <h4>In the inputs below, provide your GPA, SAT/ACT score and intended major </h4>
+
+<!-- This section is the input value for entering your name-->
+<form action = "greet" method="post">
+ <br>
+  <label for="name">NAME</label>
+  <input type ="text" name="name_input">
+  <br>
+  <label for="gpa">GPA</label>
+  <input type ="text" name="gpa_input">
+ <br>
+  <input type ="submit" value="submit" id="submit" >
+</form>
+
+</body>
+</html>
